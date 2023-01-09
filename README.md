@@ -40,6 +40,8 @@ Sub MultipleYearStockData()
         ws.Cells(2, 15).Value = "Greatest % Increase"
         ws.Cells(3, 15).Value = "Greatest % Decrease"
         ws.Cells(4, 15).Value = "Greatest Total Volume"
+        ws.Cells(1, 16).Value = "Ticker"
+        ws.Cells(1, 17).Value = "Value"
         
         'Begin the for loop
         For i = 2 To LastRow
